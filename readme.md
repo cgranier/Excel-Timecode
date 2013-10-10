@@ -27,11 +27,11 @@ A3: 01:15:31;13
 A4: 01:15:30;12  
 RESULT: 00:00:01;01  
 
-NOTE:
+NOTE:  
 The formula "IF((A4-A3)=MEDIAN((A4-A3),-3,3)" calculates whether the value of A4-A3 falls within the values -3 and 3. If you were trying to determine whether these two values are 1 second apart, you would use -33 and 33 as your boundaries (30 frames equal 1 second).
 
-WHY I WROTE THIS:
+WHY I WROTE THIS:  
 We edit videos for YouTube and Hulu that must contain commercial breaks. After editing, and as a form of quality control, we document the position of every commercial break (so that YouTube and Hulu can properly insert ads into the videos). Because of how we edit the videos, the ad breaks for one are always offset by x seconds in the other. We use these formulas to verify that these differences exist, which helps us make sure no video is missing and edit or graphic.
 
-THANKS:
+THANKS:  
 To [Chandoo.org](http://chandoo.org/wp/2010/06/24/between-formula-excel/) for the great trick to test if a value falls in between two other values.
